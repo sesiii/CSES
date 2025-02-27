@@ -2,6 +2,7 @@
 using namespace std;
 
 #define ll long long
+#define MOD 10^7
 
 void algorithm(ll n)
 {
