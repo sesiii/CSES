@@ -2,10 +2,9 @@
 using namespace std;
 
 #define ll long long
-#define MOD 10^7
+#define MOD 10^8
 
 void algorithm(ll n)
-
 {
     if (n == 1) {
         cout << "1\n";
