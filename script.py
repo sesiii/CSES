@@ -99,7 +99,7 @@ def commit_and_push():
         else:
             subprocess.run(["git", "add", file])  # Add new/modified files
 
-        commit_message = f"Solved: {os.path.basename(file)}"
+        commit_message = f"changes in {os.path.basename(file)}"
         subprocess.run(["git", "commit", "-m", commit_message])
 
         # Push immediately after each commit to increase contribution count
