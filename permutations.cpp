@@ -5,6 +5,7 @@ using namespace std;
 #define MOD 10^7
 
 void algorithm(ll n)
+
 {
     if (n == 1) {
         cout << "1\n";
